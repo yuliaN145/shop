@@ -1,0 +1,12 @@
+import { createPage } from "./ts/createPage/createPage";
+import { catalog } from "./ts/createPage/createPage";
+import { data } from "./ts/data/data";
+import { filters } from "./ts/filters/filters";
+import { basketAdd } from "./ts/basket/basket";
+createPage();
+filters();
+catalog(data);
+basketAdd();
+import { reset } from "./ts/reset/reset";
+const resetBtn: any = document.querySelector(".reset__filters");
+resetBtn.addEventListener("click", reset);

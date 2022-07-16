@@ -1,0 +1,46 @@
+.header {
+    background: #121c1e;
+    border-bottom: 2px solid #fff;
+    border-radius: 0 0 20px 20px;
+    height: 50px;
+    padding: 10px 0;
+}
+.header__flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 8rem;
+    margin-left: 8rem;
+}
+.header__flex-item__logo {
+    display: flex;
+    align-items: center;
+}
+.item__logo-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+}
+.item__logo-title {
+    color: #fff;
+    font-size: 1.4rem;
+}
+.item__logo-title h1 {
+    margin: 0;
+}
+.header__flex-item__basket {
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+}
+.basket-num {
+    position: absolute;
+    background-color: aqua;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    text-align: center;
+    top: 39px;
+    right: 113px;
+}
