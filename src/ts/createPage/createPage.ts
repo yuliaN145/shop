@@ -13,7 +13,7 @@ export function createPage(): void {
               </div>
             </div>
             <div class="header__basket">
-              <img class="header__flex-item__basket" src="/src/img/basket.svg">
+              <img class="header__flex-item__basket" src="/shop/src/img/basket.svg">
               <div class="basket-num">0</div>
             </div>
           </div>
